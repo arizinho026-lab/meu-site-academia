@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #0077cc;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+#destaque {
+  background: #005fa3;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#servicos, #depoimentos, #contato {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+button {
+  background: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
