@@ -1,54 +1,50 @@
-body {
-  font-family: Arial, sans-serif;
+/* RESET BÁSICO */
+* {
   margin: 0;
-  background: #f9f9f9;
-  color: #333;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0e0e0e;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* TOPO COM IMAGEM */
 header {
-  background: #0077cc;
-  color: white;
-  padding: 15px;
+  background-image: url('https://img.freepik.com/fotos-gratis/homem-forte-treinando-na-academia_1303-23853.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
 
-nav a {
-  color: white;
-  margin-left: 15px;
-  text-decoration: none;
-}
-
-#destaque {
-  background: #005fa3;
-  color: white;
-  padding: 40px 20px;
+header .overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-}
-
-#servicos, #depoimentos, #contato {
   padding: 20px;
-  max-width: 600px;
-  margin: 0 auto 30px;
 }
 
-button {
-  background: #0077cc;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 4px;
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #fff;
+  z-index: 2;
 }
 
-button:hover {
-  background: #005fa3;
-}
-
-footer {
-  background: #222;
-  color: white;
-  text-align: center;
-  padding: 15px;
-}
+header p {
+  font-size: 1.2
